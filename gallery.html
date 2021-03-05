@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+h2 {font-family: 'Montserrat', sans-serif;}
+
+span {font-family: 'Montserrat', sans-serif; font-size: 16px;}
+
+ul {
+  font-family: 'Montserrat', sans-serif; font-size: 20px;
+  text-align:center;
+  padding:25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+    display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        margin-right:10px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+li a:hover:not(.active) {
+   text-decoration: underline;
+}
+
+.active {
+ font-weight: bold;
+ font-size: 23px;
+}
+
+
+
+
+
+
+div.gallery img {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  display: table;
+
+}
+
+div.desc {
+  width: 85%;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 15px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<ul>
+  <li><a class="active" href="index.html">AIRT</a></li>
+  <li><a href="gallery.html">Galley</a></li>
+  <li><a href="project.html">Project</a></li>
+  <li><a href="buy.html">Buy</a></li>
+</ul>
+<br>
+<hr width="95%">
+<br>
+<h2><center>PORTRAIT COLLECTION</center></h2>
+<br><br>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gallery/LenaMayer.gif" alt="Lena Mayer" width="512" height="512">
+    </a>
+    <div class="desc">Lena Mayer &nbsp; <span style="background-color:lightgray;">&nbsp;#Common&nbsp;</span></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gallery/SirJeffFuller.gif" alt="Sir Jeff Fuller" width="512" height="512">
+    </a>
+    <div class="desc">Sir Jeff Fuller &nbsp; <span style="background-color:lightgray">&nbsp;#Common&nbsp;</span></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gallery/CharlesLatos.gif" alt="Charles Latos" width="512" height="512">
+    </a>
+    <div class="desc">Charles Latos (Chas) &nbsp; <span style="background-color:lightgray">&nbsp;#Common&nbsp;</span></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gallery/IvanWaite.gif" alt="Ivan Waite" width="512" height="512">
+    </a>
+    <div class="desc">Ivan Waite &nbsp; <span style="background-color:#ca9783">&nbsp;#Rare&nbsp;</span></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+</body>
+</html>
